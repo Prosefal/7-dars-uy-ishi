@@ -16,7 +16,7 @@ Form.addEventListener('submit', function (evt) {
       } else if (Select.value == "rubl") {
         title.textContent = (input.value / rubl).toFixed(4) + " ₽"
       } else if (input < 0) {
-        title.textContent = "Minus son kiritish munkun emas"
+        title.textContent = "Bunday qilish mumkun emas"
       } else if (isNaN(input)) {
           title.textContent = "Son kiriting"
       }
